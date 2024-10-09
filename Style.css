@@ -1,0 +1,54 @@
+/* Estilo del cuerpo */
+body {
+    background-color: #f9f3f3; /* Color de fondo pastel */
+    color: #333; /* Color del texto */
+    font-family: 'Arial', sans-serif; /* Fuente simple y legible */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+/* Estilo del encabezado */
+header {
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2.5em; /* Tamaño grande para el título */
+    color: #ff6f61; /* Color pastel suave */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    text-shadow: 1px 1px #fff; /* Sombra suave para dar un poco de profundidad */
+}
+
+/* Estilo del contenido principal */
+main {
+    margin: 0 auto; /* Centra el contenido */
+    max-width: 600px; /* Ancho máximo para el contenido */
+}
+
+/* Estilo de la imagen */
+img {
+    border: 5px solid #ffe0e0; /* Borde en color pastel claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la imagen */
+    transition: transform 0.3s ease-in-out; /* Animación suave al pasar el ratón */
+}
+
+/* Efecto al pasar el ratón sobre la imagen */
+img:hover {
+    transform: scale(1.05); /* Agranda la imagen ligeramente */
+}
+
+/* Estilo de párrafo */
+p {
+    font-size: 1.2em; /* Tamaño de fuente del párrafo */
+    color: #555; /* Color del texto */
+    margin-top: 10px; /* Espacio arriba del párrafo */
+}
+
+/* Estilo del pie de página */
+footer {
+    margin-top: 20px; /* Espacio arriba del pie de página */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    color: #777; /* Color de texto más claro */
+}
